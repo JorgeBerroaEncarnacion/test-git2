@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+//comentario
 typedef struct
 {
     int matricula;
@@ -18,6 +19,7 @@ void escribe(FILE *); /* Prototipo de función. */
  void open();
  //void lee(FILE *);
  void searchByID(int);
+ //comment
 int main() {
 
     FILE *ar;
